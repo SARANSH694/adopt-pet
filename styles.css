@@ -1,0 +1,114 @@
+h1{
+font-size: 2.5rem;
+text-align: center;
+color: #fff;
+margin: 120px 0px 0px 10px;
+}
+
+body{
+    background-color: #BDC7C9;
+}
+#upper-container{
+  background-color: #1A1C20;
+  color: #fff;
+
+}
+
+/* Navbar */
+.navbar-style{
+  margin:0px;
+}
+
+.navbar-liststyle{
+  font-size: 20px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+
+/* Title-Image */
+.title-image {
+  width: 70%;
+margin:60px 0px 60px 60px;
+border-radius: 20%;
+}
+
+
+/* first-half-middle-container */
+#first-half-middle-container{
+  text-align: center;
+  background-color:  #BDC7C9;
+  color: #000;
+}
+/* Courosal */
+.carousel-item{
+  padding: 7% 15%;
+}
+.idea-text{
+
+}
+.idea-image{
+  width: 40%;
+  margin: 20px;
+}
+
+/* second-half-middle-container */
+#second-half-middle-container{
+ margin: 7% 15%;
+}
+.idea-h3{
+text-align:center;
+margin-bottom: 50px;
+font-size: 3rem;
+}
+.idea-p{
+font-size: 0.9rem;
+text-align: center;
+}
+/* bottom-cotainer */
+#first-half-bottom-container{
+  margin: 7% 15%;
+}
+
+#footer{
+background-color:  #1A1C20;
+color: #fff;
+text-align: center;
+padding: 3% 0%;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.contain {
+  position: relative;
+}
+
+.nav-link {
+  margin: 0.5rem;
+  position: relative;
+  /* padding: 0 1rem; */
+}
+
+.navbar-liststyle {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+div.pullLeft a::before {
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  content: "";
+  background: #fff;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.pullLeft a:hover::before {
+  width: 100%;
+}

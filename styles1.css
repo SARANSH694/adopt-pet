@@ -1,0 +1,106 @@
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0px 0px 10px;
+}
+
+body {
+  background-color: #bdc7c9;
+  position: relative;
+}
+#upper-container {
+  background-color: #1a1c20;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar-style {
+  margin: 0px;
+  background-color: #3490de; /*change by me*/
+}
+/*my css */
+.contain {
+  position: relative;
+}
+
+.nav-link {
+  margin: 0.5rem;
+  position: relative;
+  /* padding: 0 1rem; */
+}
+
+.navbar-liststyle {
+  font-size: 20px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+div.pullLeft a::before {
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  content: "";
+  background: #fff;
+  opacity: 0.3;
+  transition: all 0.3s;
+}
+
+div.pullLeft a:hover::before {
+  width: 100%;
+}
+
+
+/* first-half-middle-container */
+#first-half-middle-container {
+  text-align: center;
+  background-color: #bdc7c9;
+  color: #000;
+}
+/* Courosal */
+.carousel-item {
+  padding: 7% 15%;
+}
+.idea-text {
+}
+.idea-image {
+  width: 40%;
+  margin: 20px;
+}
+
+/* second-half-middle-container */
+#second-half-middle-container {
+  margin: 7% 15%;
+}
+.idea-h3 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+.idea-p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+/* bottom-cotainer */
+#first-half-bottom-container {
+  margin: 7% 15%;
+}
+
+#footer {
+  background-color: #1a1c20;
+  color: #fff;
+  text-align: center;
+  padding: 3% 0%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.frm{
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+}
